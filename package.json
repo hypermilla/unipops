@@ -1,0 +1,38 @@
+{
+  "name": "unipops",
+  "version": "1.0.0",
+  "description": "A \"No-Loss Patreon\" experiment using PoolTogether. Users can pool tokens and get LootBoxes with NFTs from one artist.  The artist receives the interest, and in turn, adds new content to the LootBoxes constantly, creating an economy around it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypermilla/unipops.git"
+  },
+  "author": "hypermilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hypermilla/unipops/issues"
+  },
+  "homepage": "https://github.com/hypermilla/unipops#readme",
+  "devDependencies": {
+    "@alch/alchemy-web3": "^1.0.1",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@pooltogether/fixed-point": "^1.0.0",
+    "chai": "^4.3.4",
+    "dotenv": "^8.2.0",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.0.32"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.1.0-solc-0.7",
+    "@openzeppelin/contracts-ethereum-package": "^3.0.0",
+    "@openzeppelin/contracts-upgradeable": "3.4.0",
+    "@pooltogether/pooltogether-contracts": "3.3.6",
+    "@pooltogether/pooltogether-rng-contracts": "^1.1.1",
+    "hardhat": "^2.1.2",
+    "mocha": "^8.3.2"
+  }
+}

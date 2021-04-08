@@ -1,0 +1,16 @@
+{
+    "attributes" : 
+    [ 
+        {
+        "trait_type" : "Character",
+        "value" : "Skelly"
+        }, 
+        {
+        "trait_type" : "Rarity",
+        "value" : "Super Rare"
+        } 
+    ],
+    "description" : "Skeletons are welcome too.",
+    "image" : "https://gateway.pinata.cloud/ipfs/QmSjUHzcMQNF25waXxrT8nZmpXAcaFjVqhbzLhtL5EM3NM",
+    "name" : "UNIPOP #02"
+}

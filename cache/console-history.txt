@@ -1,0 +1,42 @@
+pool = await ethers.getContractAt("PrizePool", "0xfA1Af297bfB476aD26Eddb10D77FC1cCe98eb324")
+pool = getContractAt("PrizePool", "0xfA1Af297bfB476aD26Eddb10D77FC1cCe98eb324")
+0xfA1Af297bfB476aD26Eddb10D77FC1cCe98eb324
+builder = await ethers.getContractAt('MultipleWinnersBuilder')
+pool = await ethers.getContractAt('PoolWithMultipleWinnersBuilder', 0xF150CFC88868B88eAfc52D1C571A9Bdc484611E2)
+pool = await ethers.getContractAt('PrizePool', '0x3F2da0b903ce5D5280471c14a920c774aCfC9ee1', signers[0])
+uilder = await ethers.getContractAt('PoolWithMultipleWinnersBuilder', '0xF150CFC88868B88eAfc52D1C571A9Bdc484611E2', signers[0])
+signers = await ethers.getSigners()
+pool = await ethers.getContractAt('PrizePool', '0x3F2da0b903ce5D5280471c14a920c774aCfC9ee1')
+pool = await ethers.getContractAt('PrizePool', '0x3F2da0b903ce5D5280471c14a920c774aCfC9ee1', signers[0])
+strategy = await ethers.getContractAt('0x3F2da0b903ce5D5280471c14a920c774aCfC9ee1')
+strategy = await ethers.getContractAt('0xfA1Af297bfB476aD26Eddb10D77FC1cCe98eb324')
+strategy = await ethers.getContract('0xfA1Af297bfB476aD26Eddb10D77FC1cCe98eb324')
+builder = await ethers.getContractAt('PoolWithMultipleWinnersBuilder', 0xF150CFC88868B88eAfc52D1C571A9Bdc484611E2)
+builder = await ethers.getContractAt('0xF150CFC88868B88eAfc52D1C571A9Bdc484611E2')
+builder = await ethers.getContractAt('PoolWithMultipleWinnersBuilder', '0xF150CFC88868B88eAfc52D1C571A9Bdc484611E2')
+builder = await ethers.getContractAt('PoolWithMultipleWinnersBuilder', '0xF150CFC88868B88eAfc52D1C571A9Bdc484611E2', signers[0])
+builder = await ethers.getContractAt('MultipleWinnersBuilder', '0xF150CFC88868B88eAfc52D1C571A9Bdc484611E2', signers[0])
+signers = await ethers.getSigners()
+await pool.setPrizeStrategy('0xfA1Af297bfB476aD26Eddb10D77FC1cCe98eb324')
+pool.address
+pool = await ethers.getContractAt('PrizePool', '0x3F2da0b903ce5D5280471c14a920c774aCfC9ee1')
+await pool.setPrizeStrategy('0x0ccA01650c5E11193ec793B8c6492C8Dfe324c0a')
+pool = await ethers.getContractAt('PrizePool', '0x3F2da0b903ce5D5280471c14a920c774aCfC9ee1')
+pool = await ethers.getContractAt('PrizePool', '0x3F2da0b903ce5D5280471c14a920c774aCfC9ee1', signers[0])
+await deployments.all()
+deployed = await deployments.all()
+dai = await ethers.getContractAt('ERC20Mintable', deployed.Dai.address, signers[0])
+signers[0].sendTransaction({ to: "0xCcC7Df11Bbddc096691f4A24307f7fC98885455E", value: ethers.utils.parseEther('10') })
+console.log(signers[0])
+console.log(signers)
+signers[0].sendTrancsaction({ to: "0xCcC7Df11Bbddc096691f4A24
+signers[0].sendTrancsaction({ to: "0xCcC7Df11Bbddc096691f4A24307f7fC98885455E", value: ethers.utils.parseEther('10')})
+signers[0].sendTrancsaction({ to: "0xCcC7Df11Bbddc096691f4A24307f7fC98885455E", value: ethers.utils.parseEther('10')) })
+signers = await ethers.getSigners()
+node ./scripts/loadcontracts.js
+node scripts/loadcontracts.js
+await deployments.all()
+deployed = await deployments.all()
+await deployments.all()
+.help
+help

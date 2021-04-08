@@ -1,0 +1,3543 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/Shared/Workspace/unipops/contracts/helloworld.sol": {
+      "lastModificationDate": 1616888877432,
+      "contentHash": "0e04c651883832e8b1151e285fea3284",
+      "sourceName": "contracts/helloworld.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.3"
+      ],
+      "artifacts": [
+        "HelloWorld"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/contracts/unipop_nft.sol": {
+      "lastModificationDate": 1616894698297,
+      "contentHash": "0579198d15bc79cd4c08b4cc28ffd5fd",
+      "sourceName": "contracts/unipop_nft.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+        "@openzeppelin/contracts/utils/Counters.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.3"
+      ],
+      "artifacts": [
+        "UNIPOP"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
+      "lastModificationDate": 1616981762819,
+      "contentHash": "2d9804eb2b6f41ea0a65115e154d90eb",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/Context.sol",
+        "./IERC721.sol",
+        "./IERC721Metadata.sol",
+        "./IERC721Enumerable.sol",
+        "./IERC721Receiver.sol",
+        "../../introspection/ERC165.sol",
+        "../../math/SafeMath.sol",
+        "../../utils/Address.sol",
+        "../../utils/EnumerableSet.sol",
+        "../../utils/EnumerableMap.sol",
+        "../../utils/Strings.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC721"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts/utils/Counters.sol": {
+      "lastModificationDate": 1616981758982,
+      "contentHash": "304a56eb1322144704fb39f8c7e6d722",
+      "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Counters"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1616981758958,
+      "contentHash": "6748815a5b45c4aeeda56819f41190e0",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts/GSN/Context.sol": {
+      "lastModificationDate": 1616894482666,
+      "contentHash": "688fc161386f66688d0ea676f67dabe7",
+      "sourceName": "@openzeppelin/contracts/GSN/Context.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
+      "lastModificationDate": 1616981762817,
+      "contentHash": "e82621b83943f11c44988c60e83d6ebc",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC721"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Metadata.sol": {
+      "lastModificationDate": 1616981762819,
+      "contentHash": "370e7a48f316401b5063bcb604843e1b",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Metadata.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Metadata"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Enumerable.sol": {
+      "lastModificationDate": 1616981762819,
+      "contentHash": "eaebc3874248c26f6ea0b13b9a140a94",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Enumerable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Enumerable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
+      "lastModificationDate": 1616981762819,
+      "contentHash": "fad0b3f4424bdbb4b35467b29ea8d334",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Receiver"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts/introspection/ERC165.sol": {
+      "lastModificationDate": 1616981758958,
+      "contentHash": "08f854e2dd3c262845bba38c9b48e4e0",
+      "sourceName": "@openzeppelin/contracts/introspection/ERC165.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1616981758973,
+      "contentHash": "e03e12206057e809eb76c5f681170c32",
+      "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1616981758980,
+      "contentHash": "7aa46886ff5abe7515496208a5e2ce5a",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts/utils/EnumerableSet.sol": {
+      "lastModificationDate": 1616981758982,
+      "contentHash": "db7b1afdb2c204e1e52100b79f0c847e",
+      "sourceName": "@openzeppelin/contracts/utils/EnumerableSet.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableSet"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts/utils/EnumerableMap.sol": {
+      "lastModificationDate": 1616981758982,
+      "contentHash": "b1bb8570824c668943149211d74d6c51",
+      "sourceName": "@openzeppelin/contracts/utils/EnumerableMap.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableMap"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1616981758983,
+      "contentHash": "c86a31bacf868d392eda08a0eccc4735",
+      "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts/introspection/IERC165.sol": {
+      "lastModificationDate": 1616981758974,
+      "contentHash": "0d62a8380952235f135dae91590f90a3",
+      "sourceName": "@openzeppelin/contracts/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/prize-strategy/PeriodicPrizeStrategy.sol": {
+      "lastModificationDate": 1616993024883,
+      "contentHash": "18ae66740efecab068c070b42ebb78e3",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/prize-strategy/PeriodicPrizeStrategy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/utils/SafeCastUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/introspection/ERC165CheckerUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/token/ERC20/SafeERC20Upgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol",
+        "@pooltogether/pooltogether-rng-contracts/contracts/RNGInterface.sol",
+        "@pooltogether/fixed-point/contracts/FixedPoint.sol",
+        "../token/TokenListener.sol",
+        "../token/TokenControllerInterface.sol",
+        "../token/ControlledToken.sol",
+        "../token/TicketInterface.sol",
+        "../prize-pool/PrizePool.sol",
+        "../Constants.sol",
+        "./PeriodicPrizeStrategyListenerInterface.sol",
+        "./PeriodicPrizeStrategyListenerLibrary.sol",
+        "./BeforeAwardListener.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "PeriodicPrizeStrategy"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-ethereum-package/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1616981762854,
+      "contentHash": "3aa0c3038c55f2e2c14205311a71e879",
+      "sourceName": "@openzeppelin/contracts-ethereum-package/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../GSN/Context.sol",
+        "../Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "OwnableUpgradeSafe"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-ethereum-package/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1616981762867,
+      "contentHash": "fae58f64850246a4f1ae3b24dfb59efa",
+      "sourceName": "@openzeppelin/contracts-ethereum-package/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-ethereum-package/contracts/utils/SafeCast.sol": {
+      "lastModificationDate": 1616981762889,
+      "contentHash": "0ed8ffe6dd7b3a9702fa93f1ab89ffea",
+      "sourceName": "@openzeppelin/contracts-ethereum-package/contracts/utils/SafeCast.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "SafeCast"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-ethereum-package/contracts/introspection/IERC1820Registry.sol": {
+      "lastModificationDate": 1616981762856,
+      "contentHash": "0d164f205ca5a4b1d5a0198cdc59352a",
+      "sourceName": "@openzeppelin/contracts-ethereum-package/contracts/introspection/IERC1820Registry.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "IERC1820Registry"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1616981764644,
+      "contentHash": "dc33f115b06a62f5f6c62af735b8302c",
+      "sourceName": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-ethereum-package/contracts/utils/ReentrancyGuard.sol": {
+      "lastModificationDate": 1616981762886,
+      "contentHash": "02bbb1cdc56d4ea93ffd0afee5042290",
+      "sourceName": "@openzeppelin/contracts-ethereum-package/contracts/utils/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuardUpgradeSafe"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-ethereum-package/contracts/utils/Address.sol": {
+      "lastModificationDate": 1616981762874,
+      "contentHash": "079b4185b8794e6abce0f0c79ffeb8f5",
+      "sourceName": "@openzeppelin/contracts-ethereum-package/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.2"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/token/TokenListenerInterface.sol": {
+      "lastModificationDate": 1616993024893,
+      "contentHash": "44b38d51cbc621c9790deaa99e9a92f0",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/token/TokenListenerInterface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/introspection/IERC165Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "TokenListenerInterface"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/token/TokenControllerInterface.sol": {
+      "lastModificationDate": 1616981762932,
+      "contentHash": "a32309a2b8d9eaead4fa47ad0e857764",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/token/TokenControllerInterface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "TokenControllerInterface"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/token/ControlledToken.sol": {
+      "lastModificationDate": 1616993024892,
+      "contentHash": "65edc1a4b294ad23b22b17afc03a366f",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/token/ControlledToken.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/drafts/ERC20PermitUpgradeable.sol",
+        "./TokenControllerInterface.sol",
+        "./ControlledTokenInterface.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "ControlledToken"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/token/TicketInterface.sol": {
+      "lastModificationDate": 1616981762930,
+      "contentHash": "6a5914f9aea481f3693cff4df89e5489",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/token/TicketInterface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "TicketInterface"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/prize-pool/PrizePool.sol": {
+      "lastModificationDate": 1616993024901,
+      "contentHash": "d0391007fc95b56991111ab3e9ac424f",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/prize-pool/PrizePool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/utils/SafeCastUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/token/ERC721/IERC721Upgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/introspection/ERC165CheckerUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/token/ERC20/SafeERC20Upgradeable.sol",
+        "@pooltogether/fixed-point/contracts/FixedPoint.sol",
+        "../external/compound/ICompLike.sol",
+        "../registry/RegistryInterface.sol",
+        "../reserve/ReserveInterface.sol",
+        "../token/TokenListenerInterface.sol",
+        "../token/TokenListenerLibrary.sol",
+        "../token/ControlledToken.sol",
+        "../token/TokenControllerInterface.sol",
+        "../utils/MappedSinglyLinkedList.sol",
+        "./PrizePoolInterface.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "PrizePool"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/Constants.sol": {
+      "lastModificationDate": 1616993024631,
+      "contentHash": "a713ad8c11b97eda0040bec273c8868a",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/Constants.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/introspection/IERC1820RegistryUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "Constants"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-ethereum-package/contracts/GSN/Context.sol": {
+      "lastModificationDate": 1616981762866,
+      "contentHash": "29ba4a35181267b3aab4563990e56909",
+      "sourceName": "@openzeppelin/contracts-ethereum-package/contracts/GSN/Context.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "ContextUpgradeSafe"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol": {
+      "lastModificationDate": 1616981758986,
+      "contentHash": "402d88f041ed1754339d60ae70077cd9",
+      "sourceName": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24 <0.7.0"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1616981764644,
+      "contentHash": "b51b3e2390708fa4563fa5bce80babf9",
+      "sourceName": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../GSN/Context.sol",
+        "./IERC20.sol",
+        "../../math/SafeMath.sol",
+        "../../utils/Address.sol",
+        "../../Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "ERC20UpgradeSafe"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-ethereum-package/contracts/token/ERC721/IERC721.sol": {
+      "lastModificationDate": 1616981764646,
+      "contentHash": "97c88c8657def5aa981d8a981317ca2a",
+      "sourceName": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC721/IERC721.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.2"
+      ],
+      "artifacts": [
+        "IERC721"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/SafeERC20.sol": {
+      "lastModificationDate": 1616981764644,
+      "contentHash": "95e6e051ef0ec49572891748988f3719",
+      "sourceName": "@openzeppelin/contracts-ethereum-package/contracts/token/ERC20/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "../../math/SafeMath.sol",
+        "../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/reserve/ReserveInterface.sol": {
+      "lastModificationDate": 1616993024944,
+      "contentHash": "f8df6df07ab0d7159ecda2fd9b5f1b07",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/reserve/ReserveInterface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "ReserveInterface"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/utils/MappedSinglyLinkedList.sol": {
+      "lastModificationDate": 1616981762930,
+      "contentHash": "29946e57a3593db3c6fd0ed19e46ff04",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/utils/MappedSinglyLinkedList.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "MappedSinglyLinkedList"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/prize-pool/PrizePoolInterface.sol": {
+      "lastModificationDate": 1616993024901,
+      "contentHash": "e30943a421a16723c2c0c63236a36a63",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/prize-pool/PrizePoolInterface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../token/TokenListenerInterface.sol",
+        "../token/ControlledTokenInterface.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "PrizePoolInterface"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-ethereum-package/contracts/introspection/IERC165.sol": {
+      "lastModificationDate": 1616981762863,
+      "contentHash": "5ec9ec08d98492966489f7aaff92a89e",
+      "sourceName": "@openzeppelin/contracts-ethereum-package/contracts/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1616981758972,
+      "contentHash": "2adbd82f6d055a4751566d4671512b03",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-rng-contracts/contracts/RNGInterface.sol": {
+      "lastModificationDate": 1616981759016,
+      "contentHash": "edb3bf0b9fc9a51eba25f7976d9c5b99",
+      "sourceName": "@pooltogether/pooltogether-rng-contracts/contracts/RNGInterface.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0"
+      ],
+      "artifacts": [
+        "RNGInterface"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/prize-strategy/PeriodicPrizeStrategy.sol": {
+      "lastModificationDate": 1616989186462,
+      "contentHash": "18ae66740efecab068c070b42ebb78e3",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/prize-strategy/PeriodicPrizeStrategy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/utils/SafeCastUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/introspection/ERC165CheckerUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/token/ERC20/SafeERC20Upgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol",
+        "@pooltogether/pooltogether-rng-contracts/contracts/RNGInterface.sol",
+        "@pooltogether/fixed-point/contracts/FixedPoint.sol",
+        "../token/TokenListener.sol",
+        "../token/TokenControllerInterface.sol",
+        "../token/ControlledToken.sol",
+        "../token/TicketInterface.sol",
+        "../prize-pool/PrizePool.sol",
+        "../Constants.sol",
+        "./PeriodicPrizeStrategyListenerInterface.sol",
+        "./PeriodicPrizeStrategyListenerLibrary.sol",
+        "./BeforeAwardListener.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "PeriodicPrizeStrategy"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/token/TokenListener.sol": {
+      "lastModificationDate": 1616989186471,
+      "contentHash": "b2baa58ad07a86f0963dc36864e4f273",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/token/TokenListener.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./TokenListenerInterface.sol",
+        "./TokenListenerLibrary.sol",
+        "../Constants.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.4"
+      ],
+      "artifacts": [
+        "TokenListener"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/token/TokenControllerInterface.sol": {
+      "lastModificationDate": 1616901440557,
+      "contentHash": "a32309a2b8d9eaead4fa47ad0e857764",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/token/TokenControllerInterface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "TokenControllerInterface"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/token/ControlledToken.sol": {
+      "lastModificationDate": 1616989186470,
+      "contentHash": "65edc1a4b294ad23b22b17afc03a366f",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/token/ControlledToken.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/drafts/ERC20PermitUpgradeable.sol",
+        "./TokenControllerInterface.sol",
+        "./ControlledTokenInterface.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "ControlledToken"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/token/TicketInterface.sol": {
+      "lastModificationDate": 1616901440557,
+      "contentHash": "6a5914f9aea481f3693cff4df89e5489",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/token/TicketInterface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "TicketInterface"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/prize-pool/PrizePool.sol": {
+      "lastModificationDate": 1616989186459,
+      "contentHash": "d0391007fc95b56991111ab3e9ac424f",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/prize-pool/PrizePool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/utils/SafeCastUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/token/ERC721/IERC721Upgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/introspection/ERC165CheckerUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/token/ERC20/SafeERC20Upgradeable.sol",
+        "@pooltogether/fixed-point/contracts/FixedPoint.sol",
+        "../external/compound/ICompLike.sol",
+        "../registry/RegistryInterface.sol",
+        "../reserve/ReserveInterface.sol",
+        "../token/TokenListenerInterface.sol",
+        "../token/TokenListenerLibrary.sol",
+        "../token/ControlledToken.sol",
+        "../token/TokenControllerInterface.sol",
+        "../utils/MappedSinglyLinkedList.sol",
+        "./PrizePoolInterface.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "PrizePool"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/Constants.sol": {
+      "lastModificationDate": 1616989186453,
+      "contentHash": "a713ad8c11b97eda0040bec273c8868a",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/Constants.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/introspection/IERC1820RegistryUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "Constants"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/prize-strategy/PeriodicPrizeStrategyListenerInterface.sol": {
+      "lastModificationDate": 1616989186463,
+      "contentHash": "10d1559a2048781a76f33d87237f0972",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/prize-strategy/PeriodicPrizeStrategyListenerInterface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/introspection/IERC165Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "PeriodicPrizeStrategyListenerInterface"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/prize-strategy/PeriodicPrizeStrategyListenerLibrary.sol": {
+      "lastModificationDate": 1616989186463,
+      "contentHash": "0b197965d0adf628a07bdc5e0282fda8",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/prize-strategy/PeriodicPrizeStrategyListenerLibrary.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "PeriodicPrizeStrategyListenerLibrary"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/prize-strategy/BeforeAwardListener.sol": {
+      "lastModificationDate": 1616989186461,
+      "contentHash": "10911b09c8f82e4b1ae7f3a99adcb626",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/prize-strategy/BeforeAwardListener.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BeforeAwardListenerInterface.sol",
+        "../Constants.sol",
+        "./BeforeAwardListenerLibrary.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "BeforeAwardListener"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/token/TokenListenerInterface.sol": {
+      "lastModificationDate": 1616989186471,
+      "contentHash": "44b38d51cbc621c9790deaa99e9a92f0",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/token/TokenListenerInterface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/introspection/IERC165Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "TokenListenerInterface"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/token/TokenListenerLibrary.sol": {
+      "lastModificationDate": 1616989186471,
+      "contentHash": "9361144d973b52b4b1602d2fb8ab23a7",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/token/TokenListenerLibrary.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "TokenListenerLibrary"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/token/ControlledTokenInterface.sol": {
+      "lastModificationDate": 1616989186470,
+      "contentHash": "d852f34e8cc2afef42bb4737d9a7216b",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/token/ControlledTokenInterface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol",
+        "./TokenControllerInterface.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "ControlledTokenInterface"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/external/compound/ICompLike.sol": {
+      "lastModificationDate": 1616989186457,
+      "contentHash": "d1a610eccf5610ccb2fde00c47647d8a",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/external/compound/ICompLike.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "ICompLike"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/registry/RegistryInterface.sol": {
+      "lastModificationDate": 1616901440544,
+      "contentHash": "9db9031a69f3866b915b0a88f3ddde50",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/registry/RegistryInterface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "RegistryInterface"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/reserve/ReserveInterface.sol": {
+      "lastModificationDate": 1616901440544,
+      "contentHash": "f8df6df07ab0d7159ecda2fd9b5f1b07",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/reserve/ReserveInterface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "ReserveInterface"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/utils/MappedSinglyLinkedList.sol": {
+      "lastModificationDate": 1616901440560,
+      "contentHash": "29946e57a3593db3c6fd0ed19e46ff04",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/utils/MappedSinglyLinkedList.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "MappedSinglyLinkedList"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/prize-pool/PrizePoolInterface.sol": {
+      "lastModificationDate": 1616989186460,
+      "contentHash": "e30943a421a16723c2c0c63236a36a63",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/prize-pool/PrizePoolInterface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../token/TokenListenerInterface.sol",
+        "../token/ControlledTokenInterface.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "PrizePoolInterface"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/prize-strategy/BeforeAwardListenerInterface.sol": {
+      "lastModificationDate": 1616989186461,
+      "contentHash": "ec0a36c232b900873c465d853352c0c2",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/prize-strategy/BeforeAwardListenerInterface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/introspection/IERC165Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "BeforeAwardListenerInterface"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/prize-strategy/BeforeAwardListenerLibrary.sol": {
+      "lastModificationDate": 1616989186461,
+      "contentHash": "c42e007d179127406b323b395c59a693",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/prize-strategy/BeforeAwardListenerLibrary.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "BeforeAwardListenerLibrary"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/contracts/PeriodicPrizeStrategy.sol": {
+      "lastModificationDate": 1616988351018,
+      "contentHash": "d41d8cd98f00b204e9800998ecf8427e",
+      "sourceName": "contracts/PeriodicPrizeStrategy.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-upgradeable/introspection/IERC1820RegistryUpgradeable.sol": {
+      "lastModificationDate": 1616989520678,
+      "contentHash": "d6b51d95f558c3c31f39056c3951d769",
+      "sourceName": "@openzeppelin/contracts-upgradeable/introspection/IERC1820RegistryUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC1820RegistryUpgradeable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-upgradeable/drafts/ERC20PermitUpgradeable.sol": {
+      "lastModificationDate": 1616989520678,
+      "contentHash": "3e510705706431f5c73bdc56d616424d",
+      "sourceName": "@openzeppelin/contracts-upgradeable/drafts/ERC20PermitUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../token/ERC20/ERC20Upgradeable.sol",
+        "./IERC20PermitUpgradeable.sol",
+        "../cryptography/ECDSAUpgradeable.sol",
+        "../utils/CountersUpgradeable.sol",
+        "./EIP712Upgradeable.sol",
+        "../proxy/Initializable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.5 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC20PermitUpgradeable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol": {
+      "lastModificationDate": 1616989520678,
+      "contentHash": "4404d773c16609e9c316b0acaa487556",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/ContextUpgradeable.sol",
+        "./IERC20Upgradeable.sol",
+        "../../math/SafeMathUpgradeable.sol",
+        "../../proxy/Initializable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Upgradeable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-upgradeable/drafts/IERC20PermitUpgradeable.sol": {
+      "lastModificationDate": 1616989520678,
+      "contentHash": "851cd6f51cf3b2cbebe86458c2d3d4c1",
+      "sourceName": "@openzeppelin/contracts-upgradeable/drafts/IERC20PermitUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC20PermitUpgradeable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-upgradeable/cryptography/ECDSAUpgradeable.sol": {
+      "lastModificationDate": 1616989520678,
+      "contentHash": "8fe21554560075593b87ae37a30dea42",
+      "sourceName": "@openzeppelin/contracts-upgradeable/cryptography/ECDSAUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ECDSAUpgradeable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-upgradeable/utils/CountersUpgradeable.sol": {
+      "lastModificationDate": 1616989520678,
+      "contentHash": "8cba95f8a22b2fb5aad5aa6cede94288",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/CountersUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../math/SafeMathUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "CountersUpgradeable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-upgradeable/drafts/EIP712Upgradeable.sol": {
+      "lastModificationDate": 1616989520677,
+      "contentHash": "561a5b469b2870291fdecd726e3f7501",
+      "sourceName": "@openzeppelin/contracts-upgradeable/drafts/EIP712Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../proxy/Initializable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "EIP712Upgradeable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-upgradeable/proxy/Initializable.sol": {
+      "lastModificationDate": 1616989520678,
+      "contentHash": "71b3ac8d4da61bb6c6708c12f56e3c1f",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/AddressUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.24 <0.8.0"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol": {
+      "lastModificationDate": 1616989520678,
+      "contentHash": "9f901c17a18eadc08042b6a510da3b7d",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../proxy/Initializable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ContextUpgradeable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol": {
+      "lastModificationDate": 1616989520678,
+      "contentHash": "6c8edd65243ec9d6eb91cc63cce2cd16",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Upgradeable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol": {
+      "lastModificationDate": 1616989520678,
+      "contentHash": "33cad0216fea16ce4baadc5603b84218",
+      "sourceName": "@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeMathUpgradeable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol": {
+      "lastModificationDate": 1616989520678,
+      "contentHash": "aa72beb3bf14f8394b4a8a292d66589c",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "AddressUpgradeable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol": {
+      "lastModificationDate": 1616989520678,
+      "contentHash": "008d2d730bc1f24f3c0fafa29b7a0bd2",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../proxy/Initializable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuardUpgradeable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/SafeERC20Upgradeable.sol": {
+      "lastModificationDate": 1616989520678,
+      "contentHash": "baee93b27b5b91092cb32dd0b22d0a4d",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/SafeERC20Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20Upgradeable.sol",
+        "../../math/SafeMathUpgradeable.sol",
+        "../../utils/AddressUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeERC20Upgradeable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol": {
+      "lastModificationDate": 1616989520678,
+      "contentHash": "91a7735bfcbb48c7482f10f1083a8ed8",
+      "sourceName": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/ContextUpgradeable.sol",
+        "../proxy/Initializable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "OwnableUpgradeable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-upgradeable/introspection/IERC165Upgradeable.sol": {
+      "lastModificationDate": 1616989520678,
+      "contentHash": "1e80a066fb319fc9752e62673a0e9450",
+      "sourceName": "@openzeppelin/contracts-upgradeable/introspection/IERC165Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC165Upgradeable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/IERC721Upgradeable.sol": {
+      "lastModificationDate": 1616989520678,
+      "contentHash": "9b8e95b25ad9e9907cef82d4adabe91b",
+      "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC721/IERC721Upgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../introspection/IERC165Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Upgradeable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/fixed-point/contracts/FixedPoint.sol": {
+      "lastModificationDate": 1616981758980,
+      "contentHash": "574a7abe938bf3d1ae0a8f83a9951e7d",
+      "sourceName": "@pooltogether/fixed-point/contracts/FixedPoint.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./external/openzeppelin/OpenZeppelinSafeMath_V3_3_0.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.0"
+      ],
+      "artifacts": [
+        "FixedPoint"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/fixed-point/contracts/external/openzeppelin/OpenZeppelinSafeMath_V3_3_0.sol": {
+      "lastModificationDate": 1616981764644,
+      "contentHash": "ccb9ac898783751049ac99a18fae100d",
+      "sourceName": "@pooltogether/fixed-point/contracts/external/openzeppelin/OpenZeppelinSafeMath_V3_3_0.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.0"
+      ],
+      "artifacts": [
+        "OpenZeppelinSafeMath_V3_3_0"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-upgradeable/introspection/ERC165CheckerUpgradeable.sol": {
+      "lastModificationDate": 1616989520678,
+      "contentHash": "92acf2949d383e9e294ed4a23cf0cf51",
+      "sourceName": "@openzeppelin/contracts-upgradeable/introspection/ERC165CheckerUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC165CheckerUpgradeable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@openzeppelin/contracts-upgradeable/utils/SafeCastUpgradeable.sol": {
+      "lastModificationDate": 1616989520678,
+      "contentHash": "2910161b0b590ef5dca8ae52bfaf8873",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/SafeCastUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeCastUpgradeable"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/contracts/UnipopTest.sol": {
+      "lastModificationDate": 1616993070698,
+      "contentHash": "a406fda0147966842be5f508104bc1bf",
+      "sourceName": "contracts/UnipopTest.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
+    },
+    "/Users/Shared/Workspace/unipops/pooltogether/pooltogether-pool-contracts/contracts/prize-strategy/multiple-winners/MultipleWinners.sol": {
+      "lastModificationDate": 1616989186463,
+      "contentHash": "d66d145fa4f52b34ac5d1f06a9d17283",
+      "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/prize-strategy/multiple-winners/MultipleWinners.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../PeriodicPrizeStrategy.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "MultipleWinners"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/contracts/MultipleWinners.sol": {
+      "lastModificationDate": 1616992868500,
+      "contentHash": "a1b9cd8334bb217b492ae87fb5357ff0",
+      "sourceName": "contracts/MultipleWinners.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../pooltogether/pooltogether-pool-contracts/contracts/prize-strategy/PeriodicPrizeStrategy.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "MultipleWinnersTest"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/prize-strategy/BeforeAwardListener.sol": {
+      "lastModificationDate": 1616993024869,
+      "contentHash": "10911b09c8f82e4b1ae7f3a99adcb626",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/prize-strategy/BeforeAwardListener.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BeforeAwardListenerInterface.sol",
+        "../Constants.sol",
+        "./BeforeAwardListenerLibrary.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "BeforeAwardListener"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/prize-strategy/BeforeAwardListenerInterface.sol": {
+      "lastModificationDate": 1616993024866,
+      "contentHash": "ec0a36c232b900873c465d853352c0c2",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/prize-strategy/BeforeAwardListenerInterface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/introspection/IERC165Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "BeforeAwardListenerInterface"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/prize-strategy/BeforeAwardListenerLibrary.sol": {
+      "lastModificationDate": 1616993024868,
+      "contentHash": "c42e007d179127406b323b395c59a693",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/prize-strategy/BeforeAwardListenerLibrary.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "BeforeAwardListenerLibrary"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/prize-strategy/PeriodicPrizeStrategyListenerInterface.sol": {
+      "lastModificationDate": 1616993024869,
+      "contentHash": "10d1559a2048781a76f33d87237f0972",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/prize-strategy/PeriodicPrizeStrategyListenerInterface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/introspection/IERC165Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "PeriodicPrizeStrategyListenerInterface"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/token/TokenListener.sol": {
+      "lastModificationDate": 1616993024873,
+      "contentHash": "b2baa58ad07a86f0963dc36864e4f273",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/token/TokenListener.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./TokenListenerInterface.sol",
+        "./TokenListenerLibrary.sol",
+        "../Constants.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.4"
+      ],
+      "artifacts": [
+        "TokenListener"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/prize-strategy/PeriodicPrizeStrategyListenerLibrary.sol": {
+      "lastModificationDate": 1616993024869,
+      "contentHash": "0b197965d0adf628a07bdc5e0282fda8",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/prize-strategy/PeriodicPrizeStrategyListenerLibrary.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "PeriodicPrizeStrategyListenerLibrary"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/token/TokenListenerLibrary.sol": {
+      "lastModificationDate": 1616993024873,
+      "contentHash": "9361144d973b52b4b1602d2fb8ab23a7",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/token/TokenListenerLibrary.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "TokenListenerLibrary"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/token/ControlledTokenInterface.sol": {
+      "lastModificationDate": 1616993024871,
+      "contentHash": "d852f34e8cc2afef42bb4737d9a7216b",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/token/ControlledTokenInterface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol",
+        "./TokenControllerInterface.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "ControlledTokenInterface"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/external/compound/ICompLike.sol": {
+      "lastModificationDate": 1616993025216,
+      "contentHash": "d1a610eccf5610ccb2fde00c47647d8a",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/external/compound/ICompLike.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.7.0"
+      ],
+      "artifacts": [
+        "ICompLike"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/node_modules/@pooltogether/pooltogether-contracts/contracts/registry/RegistryInterface.sol": {
+      "lastModificationDate": 1616993024875,
+      "contentHash": "9db9031a69f3866b915b0a88f3ddde50",
+      "sourceName": "@pooltogether/pooltogether-contracts/contracts/registry/RegistryInterface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0 <0.7.0"
+      ],
+      "artifacts": [
+        "RegistryInterface"
+      ]
+    },
+    "/Users/Shared/Workspace/unipops/contracts/UnipopPrizeStrategy.sol": {
+      "lastModificationDate": 1617019528752,
+      "contentHash": "07b417fbee9dd9cdd40a7110a3032461",
+      "sourceName": "contracts/UnipopPrizeStrategy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@pooltogether/pooltogether-contracts/contracts/prize-strategy/PeriodicPrizeStrategy.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "UnipopPrizeStrategy"
+      ]
+    }
+  }
+}

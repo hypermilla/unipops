@@ -1,0 +1,16 @@
+{
+    "attributes" : 
+    [ 
+        {
+        "trait_type" : "Character",
+        "value" : "Moka"
+        }, 
+        {
+        "trait_type" : "Rarity",
+        "value" : "Super Rare"
+        } 
+    ],
+    "description" : "Charging ahead with no plan.",
+    "image" : "https://gateway.pinata.cloud/ipfs/QmT7Th2BtuxqLWjTaukJ22pgBi8Pvs3K62uxrQUamH3p1L",
+    "name" : "UNIPOP #03"
+}

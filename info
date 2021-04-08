@@ -1,0 +1,14 @@
+
+
+
+=== Deployed locally ===
+UnipopPrizeStrategy.sol
+
+// address 
+0x322813Fd9A801c5507c9de605d63CEA4f2CE6c44
+
+builder = await ethers.getContractAt('MultipleWinnersBuilder', deployed.MultipleWinnersBuilder.address, signers[0])
+
+await builder.callStatic.createMultipleWinnersFromExistingPrizeStrategy('0x322813Fd9A801c5507c9de605d63CEA4f2CE6c44', 3)
+
+pool = await ethers.getContractAt('PrizePool', '0x3F2da0b903ce5D5280471c14a920c774aCfC9ee1', signers[0])

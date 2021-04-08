@@ -1,0 +1,24 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "BeforeAwardListenerLibrary",
+  "sourceName": "@pooltogether/pooltogether-contracts/contracts/prize-strategy/BeforeAwardListenerLibrary.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "ERC165_INTERFACE_ID_BEFORE_AWARD_LISTENER",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60b4610025600b82828239805160001a60731461001857fe5b30600052607381538281f3fe730000000000000000000000000000000000000000301460806040526004361060335760003560e01c80638a741914146038575b600080fd5b603e6073565b60405180827bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200191505060405180910390f35b634cdf9c3e60e01b8156fea26469706673582212209879487197e9d667a52f8783e67c82de0e1f0825127cd72ce0d50ffd4d166de364736f6c634300060c0033",
+  "deployedBytecode": "0x730000000000000000000000000000000000000000301460806040526004361060335760003560e01c80638a741914146038575b600080fd5b603e6073565b60405180827bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200191505060405180910390f35b634cdf9c3e60e01b8156fea26469706673582212209879487197e9d667a52f8783e67c82de0e1f0825127cd72ce0d50ffd4d166de364736f6c634300060c0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,24 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MappedSinglyLinkedList",
+  "sourceName": "@pooltogether/pooltogether-contracts/contracts/utils/MappedSinglyLinkedList.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "SENTINEL",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60a5610024600b82828239805160001a607314601757fe5b30600052607381538281f3fe730000000000000000000000000000000000000000301460806040526004361060335760003560e01c8063f00cab43146038575b600080fd5b603e606a565b604051808273ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b60018156fea2646970667358221220440f3329b73d61541f49077f461edd25be5b74b3355042a7ae033406db98dc9064736f6c634300060c0033",
+  "deployedBytecode": "0x730000000000000000000000000000000000000000301460806040526004361060335760003560e01c8063f00cab43146038575b600080fd5b603e606a565b604051808273ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b60018156fea2646970667358221220440f3329b73d61541f49077f461edd25be5b74b3355042a7ae033406db98dc9064736f6c634300060c0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

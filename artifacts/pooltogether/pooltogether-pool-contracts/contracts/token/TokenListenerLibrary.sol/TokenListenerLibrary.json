@@ -1,0 +1,24 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "TokenListenerLibrary",
+  "sourceName": "pooltogether/pooltogether-pool-contracts/contracts/token/TokenListenerLibrary.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "ERC165_INTERFACE_ID_TOKEN_LISTENER",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60b4610025600b82828239805160001a60731461001857fe5b30600052607381538281f3fe730000000000000000000000000000000000000000301460806040526004361060335760003560e01c8063b17b0ce3146038575b600080fd5b603e6073565b60405180827bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200191505060405180910390f35b63ff5e34e760e01b8156fea264697066735822122059e7c627cab1dfd7b04d1e66e40b2510b85ed391eedc32006b7e605472acdf9364736f6c634300060c0033",
+  "deployedBytecode": "0x730000000000000000000000000000000000000000301460806040526004361060335760003560e01c8063b17b0ce3146038575b600080fd5b603e6073565b60405180827bffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916815260200191505060405180910390f35b63ff5e34e760e01b8156fea264697066735822122059e7c627cab1dfd7b04d1e66e40b2510b85ed391eedc32006b7e605472acdf9364736f6c634300060c0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

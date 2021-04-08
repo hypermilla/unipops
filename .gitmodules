@@ -1,0 +1,12 @@
+[submodule "pooltogether/pooltogether-pool-contracts"]
+	path = pooltogether/pooltogether-pool-contracts
+	url = git@github.com:pooltogether/pooltogether-pool-contracts.git
+[submodule "pooltogether/token-listener-interface"]
+	path = pooltogether/token-listener-interface
+	url = git@github.com:pooltogether/token-listener-interface.git
+[submodule "pooltogether/loot-box"]
+	path = pooltogether/loot-box
+	url = git@github.com:pooltogether/loot-box.git
+[submodule "pooltogether/custom-prize-strategy"]
+	path = pooltogether/custom-prize-strategy
+	url = git@github.com:pooltogether/custom-prize-strategy.git
